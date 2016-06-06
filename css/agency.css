@@ -219,6 +219,12 @@ fieldset[disabled] .btn-xl.active {
 }
 header {
   background-image: url('../img/sf-bg.jpg');
+  position:relative;
+ /* top:0;
+  bottom:0;
+  left:0;
+  right:0;*/
+  height: 100%;
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
