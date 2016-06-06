@@ -219,6 +219,7 @@ fieldset[disabled] .btn-xl.active {
 }
 header {
   background-image: url('../img/sf-bg.jpg');
+  height: 100%;
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -228,6 +229,14 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
+}
+
+.background {
+  height: 100vh;
+}
+
+.portfolio {
+  height: 90vh;
 }
 header .intro-text {
   padding-top: 100px;
@@ -250,7 +259,7 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 45vh;
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
@@ -737,4 +746,9 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+
+
+#about {
+  padding: 30vh;
 }
