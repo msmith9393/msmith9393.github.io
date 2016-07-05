@@ -749,13 +749,14 @@ body {
 }
 
 .about {
-  border: 2px solid red;
   width: 70%;
   margin: 0 auto;
   min-width: 650px;
 }
 .row1 {
   min-width: 650px;
+  display: flex;
+  justify-content: space-between;
 }
 .megan-img {
   width: 150px;
