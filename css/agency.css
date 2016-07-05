@@ -748,7 +748,16 @@ body {
   webkit-tap-highlight-color: #fed136;
 }
 
-
-#about {
-  padding: 30vh;
+.about {
+  border: 2px solid red;
+  width: 70%;
+  margin: 0 auto;
+  min-width: 650px;
+}
+.row1 {
+  min-width: 650px;
+}
+.megan-img {
+  width: 150px;
+  border-radius: 50%;
 }
