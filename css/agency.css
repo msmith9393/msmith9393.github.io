@@ -1,4 +1,4 @@
-body {
+.ab {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -230,13 +230,11 @@ header {
   text-align: center;
   color: white;
 }
-
 .background {
   height: 100vh;
 }
-
 .portfolio {
-  height: 90vh;
+  height: 110vh;
 }
 header .intro-text {
   padding-top: 100px;
@@ -747,18 +745,6 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
-
-.about {
-  width: 70%;
-  margin: 0 auto;
-  min-width: 650px;
-}
-.row1 {
-  min-width: 650px;
-  display: flex;
-  justify-content: space-between;
-}
-.megan-img {
-  width: 150px;
-  border-radius: 50%;
+#about {
+  padding: 30vh;
 }
